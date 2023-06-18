@@ -168,7 +168,11 @@ function cekHasil() {
 
   const user = users.find(user => user.nim === nimInput);
 
-  localStorage.setItem('user', JSON.stringify(user));
-  window.location.href = 'pengumuman.html';
+  if(user){
+    localStorage.setItem('user', JSON.stringify(user));
+    window.location.href = 'pengumuman.html';
+  }else{
+    alert('NIM tidak ditemukan');
+  }
 
 }

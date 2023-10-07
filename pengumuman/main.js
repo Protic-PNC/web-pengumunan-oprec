@@ -1,5 +1,5 @@
 const users = [
-  [
+  
     {
       nama: "Abel Nariko Setyaki",
       nim: "230211033",
@@ -34,7 +34,7 @@ const users = [
       nama: "Amanda Bunga Lestari",
       nim: "230209003",
       divisi: "Kominfo",
-      lolos: true,
+      lolos: false,
     },
     {
       nama: "Amanda Dwi Safitri",
@@ -544,17 +544,18 @@ const users = [
     {
       nama: "Andin Ardelina Saputri ",
       nim: "230102052",
-      divisi: "Web",
-      lolos: false,
+      divisi: "Humas",
+      lolos: true,
     }
-  ]
+  
   
 ];
 
 function cekHasil() {
   const nimInput = document.getElementById("nimInput").value;
-
+  console.log(nimInput)
   const user = users.find((user) => user.nim === nimInput);
+  console.log(user)
 
   if (user) {
     localStorage.setItem("user", JSON.stringify(user));

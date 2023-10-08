@@ -112,7 +112,7 @@ const users = [
       nama: "Danda Prayogi Wijaya",
       nim: "230309069",
       divisi: "Data",
-      lolos: false,
+      lolos: true,
     },
     {
       nama: "Danu Rifanli Amin",

@@ -34,7 +34,7 @@ const users = [
       nama: "Amanda Bunga Lestari",
       nim: "230209003",
       divisi: "Kominfo",
-      lolos: false,
+      lolos: true,
     },
     {
       nama: "Amanda Dwi Safitri",

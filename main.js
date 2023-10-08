@@ -165,7 +165,7 @@ const users = [
     {
       nama: "Dina Apriliani",
       nim: "230209041",
-      divisi: "Data",
+      divisi: "UI/UX",
       lolos: true,
     },
     {
@@ -547,8 +547,6 @@ const users = [
       divisi: "Humas",
       lolos: true,
     }
-  
-  
 ];
 
 function cekHasil() {

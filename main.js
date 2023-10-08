@@ -142,7 +142,7 @@ const users = [
       nama: "Dewi Mona Rizki",
       nim: "230102058",
       divisi: "Data",
-      lolos: false,
+      lolos: true,
     },
     {
       nama: "Dewina Aulia Az Zahra",
@@ -165,8 +165,8 @@ const users = [
     {
       nama: "Dina Apriliani",
       nim: "230209041",
-      divisi: "UI/UX",
-      lolos: false,
+      divisi: "Data",
+      lolos: true,
     },
     {
       nama: "Ego Irfandi",
@@ -351,7 +351,7 @@ const users = [
     {
       nama: "Meilita Ayu Nur Khasanah",
       nim: "230102038",
-      divisi: "Humas",
+      divisi: "Web",
       lolos: true,
     },
     {
@@ -436,7 +436,7 @@ const users = [
       nama: "Naura Yaffa Kamila",
       nim: "230209024",
       divisi: "Data",
-      lolos: false,
+      lolos: true,
     },
     {
       nama: "Prima Sukma Permana",
@@ -448,7 +448,7 @@ const users = [
       nama: "Rahmat Mulyadi",
       nim: "230109057",
       divisi: "Data",
-      lolos: false,
+      lolos: true,
     },
     {
       nama: "Ramadhani Basith Razaky",
